@@ -18,21 +18,3 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.my-list {
-  display: grid;
-  row-gap: 10px;
-  column-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-}
-@media (max-width: 768px) {
-  .my-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 425px) {
-  .my-list {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-</style>

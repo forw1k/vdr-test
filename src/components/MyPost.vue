@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-2 col-lg-4 col-md-4 col-sm-5 col-0">
+  <div class="mb-4 col-lg-4 col-md-4 col-sm-0">
     <div class="card h-100 border-0">
       <div class="card-body">
         <div class="card-title">{{ post.title }}</div>
